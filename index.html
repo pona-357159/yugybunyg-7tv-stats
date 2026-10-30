@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yugybunyg 7TV Emotes Stats</title>
+  <style>
+    /* Dark theme palette matching Twitch and 7TV aesthetics */
+    :root {
+      --bg-primary: #0e0e10;
+      --bg-secondary: #18181b;
+      --bg-tertiary: #1f1f23;
+      --text-primary: #efeff1;
+      --text-muted: #adadb8;
+      --accent-purple: #9146ff;
+      --accent-purple-hover: #772ce8;
+      --accent-7tv: #00f0ff;
+      --border-color: #26262c;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 32px;
+      width: 100%;
+      max-width: 540px;
+      box-shadow: var(--shadow);
+    }
+
+    header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+
+    h1 a {
+      color: var(--accent-purple);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    h1 a:hover {
+      color: var(--accent-7tv);
+      text-decoration: underline;
+    }
+
+    .header-date {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .stats-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .stat-link {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      padding: 14px 18px;
+      border-radius: 8px;
+      color: var(--text-primary);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .stat-link:hover {
+      background-color: #26262c;
+      border-color: var(--accent-purple);
+      transform: translateY(-2px);
+    }
+
+    .stat-title {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+
+    .stat-date {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1><a href="https://7tv.app/users/01GBDHE220000BP95ZHR82Z13Z" target="_blank" rel="noopener noreferrer">Yugybunyg</a> 7TV emotes stats</h1>
+      <p class="header-date">Generated on: 29-oct-2026</p>
+    </header>
+
+    <nav class="stats-nav">
+      <a href="30d.html" target="_blank" rel="noopener noreferrer" class="stat-link">
+        <span class="stat-title">Last 30 days</span>
+        <span class="stat-date">(from 29-sep-2026 to 29-oct-2026)</span>
+      </a>
+
+      <a href="90d.html" target="_blank" rel="noopener noreferrer" class="stat-link">
+        <span class="stat-title">Last 3 months</span>
+        <span class="stat-date">(from 29-jul-2026 to 29-oct-2026)</span>
+      </a>
+
+      <a href="180d.html" target="_blank" rel="noopener noreferrer" class="stat-link">
+        <span class="stat-title">Last 6 months</span>
+        <span class="stat-date">(from 30-apr-2026 to 29-oct-2026)</span>
+      </a>
+
+      <a href="1y.html" target="_blank" rel="noopener noreferrer" class="stat-link">
+        <span class="stat-title">Last year</span>
+        <span class="stat-date">(from 29-oct-2025 to 29-oct-2026)</span>
+      </a>
+
+      <a href="2y.html" target="_blank" rel="noopener noreferrer" class="stat-link">
+        <span class="stat-title">Last 2 years</span>
+        <span class="stat-date">(from 22-aug-2025 to 29-oct-2026)</span>
+      </a>
+    </nav>
+  </main>
+
+</body>
+</html>
